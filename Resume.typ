@@ -99,32 +99,59 @@ Passionate game engine programmer and illustrator with expertise in custom engin
   stroke: none,
   align: (x, y) => left,
   [*Programming Languages*], [C++, C, Rust, Python, Lua, GDScript, x86 Assembly, Csharp, TypeScript],
-  [*Game Engines*], [Godot, Unity, LÖVE2D, Bevy, MonoGame ,Custom Engine Development],
+  [*Game Engines*], [Godot, Unity, LÖVE2D, Bevy, MonoGame, Custom Engine Development],
   [*Development Tools*], [Git, Visual Studio, VS Code, Neovim, Vercel],
   [*Web Technologies*], [React, Node.js],
-  [*Areas of Expertise*], [Engine Architecture, Graphics Programming, Tool Development, UI/UX Design],
+  [*Areas of Expertise*], [Engine Architecture, Graphics Programming, Tool Development, UI/UX Design, ECS Architecture],
 )
 
-#section("OPEN SOURCE PROJECTS")
+#section("AWARDS & ACHIEVEMENTS")
 #entry(
-  title: [#icon("link.svg") #link("https://github.com/Miisan-png/SuperSprite2D")["Custom Node Plugin for Godot 4.x"]],
-  subtitle: "Lead Developer",
-  date: "2023",
+  title: [#icon("link.svg") #link("https://www.linkedin.com/posts/apu-gamedev_apu-apugamedev-mypdti-activity-7322614535012450304-qgUO")["First Place - Indie Game Jam 2025"]],
+  subtitle: "Solo Programmer",
+  date: "May 2025",
   details: (
-    [Developed SuperSprite2D plugin for enhanced sprite animation control in Godot 4],
-    [Implemented function calling system for animated sprites],
-    [Created comprehensive documentation and examples],
+    [Won first place as sole programmer in 4-day game jam],
+    [Developed procedural generator animation/game using Godot],
+    [Implemented complex procedural generation systems under tight deadline],
   )
 )
 
 #entry(
-  title: [#icon("link.svg") #link("https://github.com/Miisan-png/Love-Dialogue")["Love-Dialogue Library"]],
+  title: [#icon("link.svg") #link("https://www.linkedin.com/posts/alirzj_gamejam-champion-gamedevelopment-activity-7296493430828871680-OnP0")["First Place - UM Game Jam 2024"]],
+  subtitle: "Lead Programmer",
+  date: "December 2024",
+  details: (
+    [Won first place developing a 4th wall breaking game using Unity],
+    [Led programming team and implemented innovative gameplay mechanics],
+    [Designed and executed meta-game elements and narrative systems],
+  )
+)
+
+#section("OPEN SOURCE PROJECTS")
+#entry(
+  title: [#icon("link.svg") #link("https://github.com/Miisan-png/Love-Dialogue")["LoveDialogue - Game Engine"]],
   subtitle: "Creator & Maintainer",
+  date: "2023 - Present",
+  details: (
+    [Developed comprehensive dialogue game engine for LÖVE2D with 50+ GitHub stars],
+    [Implemented custom scripting language with advanced text effects (wave, jiggle, shake, color formatting)],
+    [Created character portrait system with expression support and sprite sheet integration],
+    [Built flexible UI system supporting 9-patch graphics and vertical portrait modes],
+    [Designed branching dialogue system with scene labels and auto-advance functionality],
+    [Added multilingual support for Latin and CJK text handling],
+    [Implemented complete theming system with custom fonts and responsive design],
+  )
+)
+
+#entry(
+  title: [#icon("link.svg") #link("https://github.com/Miisan-png/SuperSprite2D")["SuperSprite2D - Godot Plugin"]],
+  subtitle: "Lead Developer",
   date: "2023",
   details: (
-    [Created a dialogue system with custom scripting language for LÖVE2D],
-    [Designed user-friendly API for game developers],
-    [Implemented parser and runtime for custom dialogue scripting],
+    [Developed SuperSprite2D plugin for enhanced sprite animation control in Godot 4],
+    [Implemented function calling system for animated sprites with 17 GitHub stars],
+    [Created comprehensive documentation and examples for community use],
   )
 )
 
@@ -133,9 +160,29 @@ Passionate game engine programmer and illustrator with expertise in custom engin
   subtitle: "Lead Developer",
   date: "2023",
   details: (
-    [Developed comprehensive GUI library for LÖVE2D],
+    [Developed comprehensive GUI library for LÖVE2D with 11 GitHub stars],
     [Implemented responsive design system and customizable themes],
-    [Created modular component architecture],
+    [Created modular component architecture for game UI development],
+  )
+)
+
+#entry(
+  title: [#icon("link.svg") #link("https://github.com/Miisan-png/rtask")["rtask - CLI Task Tracker"]],
+  subtitle: "Creator",
+  date: "2023",
+  details: (
+    [Built CLI task tracker in Rust with 14 GitHub stars],
+    [Implemented efficient task management system with command-line interface],
+  )
+)
+
+#entry(
+  title: [#icon("link.svg") #link("https://github.com/Miisan-png/Aseprite-Scripts")["Aseprite Scripts Collection"]],
+  subtitle: "Creator",
+  date: "2023",
+  details: (
+    [Created repository of custom Aseprite scripts with 12 GitHub stars],
+    [Developed automation tools for pixel art workflow optimization],
   )
 )
 
@@ -162,6 +209,8 @@ Passionate game engine programmer and illustrator with expertise in custom engin
 )
 
 #section("PROFESSIONAL EXPERIENCE")
+
+
 #entry(
   title: "Freelance Game Programmer",
   subtitle: "Independent Developer",
@@ -177,16 +226,26 @@ Passionate game engine programmer and illustrator with expertise in custom engin
 #entry(
   title: "Freelance Illustrator",
   subtitle: "Digital Artist",
-  date: "2020 - Present",
+  date: "2020 - 2024",
   details: (
-    [Create professional game art and illustrations],
-    [Specialize in pixel art and digital illustration],
-    [Maintain active portfolio on ArtStation],
-    [Work with international clients on game art projects],
+    [Created professional game art and illustrations],
+    [Specialized in pixel art and digital illustration],
+    [Worked with international clients on game art projects],
   )
 )
 
 #section("SPEAKING ENGAGEMENTS")
+#entry(
+  title: [#icon("link.svg") #link("https://www.instagram.com/p/DGjmvC9BSZt/")["Godot For Dummies Workshop"]],
+  subtitle: "APUGDC Club",
+  date: "2025",
+  details: (
+    [Taught 50+ participants how to create 2D games in Godot with GDScript],
+    [Demonstrated game development fundamentals and best practices],
+    [Provided hands-on coding experience for beginners],
+  )
+)
+
 #entry(
   title: [#icon("link.svg") #link("https://apugdc.vercel.app")["Pixel Art for Dummies Workshop"]],
   subtitle: "APUGDC Club",
@@ -202,12 +261,12 @@ Passionate game engine programmer and illustrator with expertise in custom engin
 #entry(
   title: "Custom 2D Game Engine",
   subtitle: "Personal Project",
-  date: "2024",
+  date: "2025",
   details: (
-    [Developing a 2D game engine using Csharp with Lua scripting integration],
-    [Implementing modern rendering techniques and efficient asset management],
+    [Developing a 2D game engine using C++ with ECS (Entity Component System) architecture],
+    [Implementing modern rendering techniques and efficient memory management],
     [Creating developer-friendly tools and workflow systems],
-    [Building extensible plugin architecture],
+    [Building extensible component-based architecture for optimal performance],
   )
 )
 
